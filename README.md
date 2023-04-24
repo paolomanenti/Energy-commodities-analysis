@@ -1,8 +1,9 @@
 # Energy-commodities-analysis
 A financial time series analysis aimed at providing a well performing estimates of Value at Risk during the pandemic.
 
-* INTRO *
-The Sars-CoV-2 virus, firstly detected in Wuhan in December 2019 and then de- clared pandemic by the WHO in March 2020, has generated tremendous consequences not only in the health sector but also in those of economy and society. In terms of financial markets and trading activities, it had a crucial impact on the prices volatil- ity.
+# INTRO 
+
+* The Sars-CoV-2 virus, firstly detected in Wuhan in December 2019 and then de- clared pandemic by the WHO in March 2020, has generated tremendous consequences not only in the health sector but also in those of economy and society. In terms of financial markets and trading activities, it had a crucial impact on the prices volatil- ity.
 In economics and finance, forecasting has always represented one of the main tools in order to better understand and manage the market risk. Indeed, considering the described above situation and the consequent impact on the economic system, it is not possible to state for how long these effects will be going on; hence it is even more necessary try to predict the possible future scenarios. Considering the market volatility, one of the instruments that better helps us to do forecasting, is the Value at Risk as a risk measure.
 To model the volatility, in the econometrics literature, the most adopted models are the GARCH thanks their ability to catch the main features of financial data. Using these models to compute and predict the VaR, in our analysis we applied a moving window procedure that enables us to forecast it at both 95% and 99% confidence intervals.
 By using the Backtesting and MCS methods, we obtain different estimates that, once evaluated, allow us to verify their prediction abilities. The first procedure permits, examining the p-values, to better understand the various model performances for the prediction of the VaR; while the second one, considering the predictive ability com- puted on the VaR loss function, ranks all the type of model examined. The best possible scenario is that in which the model have passed the Backtesting and got a high position in the MCS ranking.
